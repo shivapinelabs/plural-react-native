@@ -1,9 +1,9 @@
-# react-native-plural-checkout-package
+# plural-react-native
 npm package for plural checkout
 ## Installation
 
 ```sh
-npm install "git+https://github.com/ankitaneja-pinelabs/react-native-plural-checkout"
+npm install "git+https://github.com/shivapinelabs/plural-react-native"
 ```
 
 ### For iOS
@@ -13,7 +13,7 @@ npm install "git+https://github.com/ankitaneja-pinelabs/react-native-plural-chec
 ---
 
 ```sh
-pod "PluralCheckout", git: "https://github.com/ankitaneja-pinelabs/plural-ios-sdk.git"
+pod "PluralCheckout", git: "https://github.com/shivapinelabs/plural-ios-sdk.git"
 ```
 
 ##### Sample Podfile:
@@ -21,7 +21,7 @@ pod "PluralCheckout", git: "https://github.com/ankitaneja-pinelabs/plural-ios-sd
 ```sh
 target 'PluralCheckoutExample' do
   ...
-  pod "PluralCheckout", git: "https://github.com/ankitaneja-pinelabs/plural-ios-sdk.git"
+  pod "PluralCheckout", git: "https://github.com/shivapinelabs/plural-ios-sdk.git"
   ...
 end
 ```
@@ -68,7 +68,7 @@ Return type: Void
 ###### Usage:
 
 ```sh
-    import { start } from "react-native-plural-checkout-package";
+    import { start } from "plural-react-native";
 
     const options = {
       channelId: 'APP',
