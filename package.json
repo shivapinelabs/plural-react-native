@@ -1,7 +1,7 @@
 {
   "name": "plural-react-native",
   "version": "0.1.0",
-  "description": "test",
+  "description": "Plural checkout SDK",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/ankitaneja-pinelabs/react-native-plural-checkout",
+  "repository": "https://github.com/shivapinelabs/plural-react-native",
   "author": "Ankit Aneja <ankit.aneja@pinelabs.com> (https://github.com/ankitaneja-pinelabs)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ankitaneja-pinelabs/react-native-plural-checkout/issues"
+    "url": "https://github.com/shivapinelabs/plural-react-native/issues"
   },
-  "homepage": "https://github.com/ankitaneja-pinelabs/react-native-plural-checkout#readme",
+  "homepage": "https://github.com/shivapinelabs/plural-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
