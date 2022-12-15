@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "react-native-plural-checkout-package.podspec",
+    "plural-react-native.podspec",
     "plural-react-native",
     "!lib/typescript/example",
     "!android/build",

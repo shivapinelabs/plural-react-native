@@ -1,6 +1,6 @@
 {
-  "name": "react-native-plural-checkout-package-example",
-  "description": "Example app for react-native-plural-checkout-package",
+  "name": "plural-react-native-example",
+  "description": "Example app for plural-react-native-package",
   "version": "0.0.1",
   "private": true,
   "scripts": {
