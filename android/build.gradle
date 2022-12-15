@@ -125,7 +125,7 @@ repositories {
 dependencies {
   implementation 'com.google.android.material:material:1.5.0'
 
-  implementation files('libs/CHECKOUT_RELEASE_23082022.aar')
+  implementation files('libs/plural.aar')
 
   implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
   //noinspection GradleDynamicVersion
