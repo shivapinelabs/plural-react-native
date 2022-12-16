@@ -3,7 +3,7 @@ npm package for plural checkout
 ## Installation
 
 ```sh
-npm install "git+https://github.com/shivapinelabs/plural-react-native"
+npm install "plural-react-native"
 ```
 
 ### For iOS
@@ -73,12 +73,12 @@ Return type: Void
     const options = {
       channelId: 'APP',
       countryCode: '91',
-      emailId: 'ashwini.vishwas@pinelabs.com',
+      emailId: 'example@pinelabs.com',
       theme: 'Dark',
       orderToken: token,
       paymentMode: 'ALL',
       showSavedCardsFeature: false,
-      mobileNumber: '9359612449',
+      mobileNumber: '1234567892',
       cardCategoryType: "DC"
     };
 
