@@ -3,7 +3,7 @@ npm package for plural checkout
 ## Installation
 
 ```sh
-npm install "plural-react-native"
+npm install plural-react-native
 ```
 
 ### For iOS
