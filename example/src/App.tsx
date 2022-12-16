@@ -17,12 +17,12 @@ export default function App() {
     const options = {
       channelId: 'APP',
       countryCode: '91',
-      emailId: 'ashwini.vishwas@pinelabs.com',
+      emailId: 'example@pinelabs.com',
       theme: 'Dark',
       orderToken: tokenData.token,
       paymentMode: 'ALL',
       showSavedCardsFeature: false,
-      mobileNumber: '9359612449',
+      mobileNumber: '1234567890',
     };
     const SDKCallback = ({message, statusCode}): void => {
       if (statusCode == "200") {
