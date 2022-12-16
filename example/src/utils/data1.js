@@ -13,9 +13,9 @@ const createOrderData = () => {
 
   const data = {
     merchant_data: {
-      merchant_id: '12219',
-      merchant_access_code: '09a78e68-b3bd-4ddd-b46b-79dab69a271c',
-      merchant_return_url: 'http://10.200.146.139:9020/chargingrespnew.aspx',
+      merchant_id: '****',
+      merchant_access_code: '****',
+      merchant_return_url: '****',
       merchant_order_id: randomString(15),
     },
     payment_info_data: {
@@ -25,8 +25,8 @@ const createOrderData = () => {
     },
     customer_data: {
       country_code: '91',
-      mobile_number: '8760944447',
-      email_id: 'balwant0892@gmail.com',
+      mobile_number: '12345****',
+      email_id: 'example@gmail.com',
     },
     billing_address_data: {
       first_name: 'Balwant',
