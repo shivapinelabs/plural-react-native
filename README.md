@@ -36,7 +36,7 @@ cd ios && pod install
 
 #### Methods
 
-##### 1) startPayment
+##### 1) start
 
 ---
 
