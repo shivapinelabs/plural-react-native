@@ -60,7 +60,6 @@ Return type: Void
 | **_countryCode_**           | number  | yes                       | Country code which is used for mobile numbers                                                                       |                                                |
 | **_emailId_**        | string  | yes                       | Email address of customer.                                                                                                                                            |
 | **_theme_**     | string  | yes                       | What type of theme you want to keep (Light or Dark)                                                                                                                                            |
-| **_paymentMode_**           | string  | yes                       | To select the type of the payment mode the merchant wants to keep for getting the payment like: - All- for all present payment mode CC_DC for only credit and debit type of payment etc..                                                                                            |
 | **_orderToken_**            | string  | yes (no for generateHash) | Use SHA256 type of value. |
 | **_showSavedCardsFeature_**      | boolean  | yes                       | true for showing the saved card feature false for disabling                                                                                                                                                    |
 | **_mobileNumber_**   | string  | yes                       | Mobile number of customer                                                                                                                                               |
@@ -76,7 +75,6 @@ Return type: Void
       emailId: 'example@pinelabs.com',
       theme: 'Dark',
       orderToken: token,
-      paymentMode: 'ALL',
       showSavedCardsFeature: false,
       mobileNumber: '1234567892',
       cardCategoryType: "DC"
