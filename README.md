@@ -77,7 +77,8 @@ Return type: Void
       orderToken: token,
       showSavedCardsFeature: false,
       mobileNumber: '1234567892',
-      cardCategoryType: "DC"
+      cardCategoryType: "DC",
+      authToken: encoded // basic authentication token generated using the merchant ID and the merchant-access-code
     };
 
     const environment = {
