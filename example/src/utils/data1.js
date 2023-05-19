@@ -61,6 +61,9 @@ const createOrderData = () => {
     additional_info_data: {
       rfu1: '123',
     },
+    extra_params: {
+      payment_modes: ['ALL'], // or you can also pass comma seprated payment modes Example:- ['UPI','WALLET','EMI']
+    },
   };
   return data;
 };

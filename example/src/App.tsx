@@ -20,7 +20,6 @@ export default function App() {
       emailId: 'example@pinelabs.com',
       theme: 'Dark',
       orderToken: tokenData.token,
-      paymentMode: 'ALL',
       showSavedCardsFeature: false,
       mobileNumber: '1234567890',
     };
