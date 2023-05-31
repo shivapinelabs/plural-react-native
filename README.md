@@ -64,6 +64,7 @@ Return type: Void
 | **_showSavedCardsFeature_**      | boolean  | yes                       | true for showing the saved card feature false for disabling                                                                                                                                                    |
 | **_mobileNumber_**   | string  | yes                       | Mobile number of customer                                                                                                                                               |
 | **_cardCategoryType_**          | string  | yes                        | for chossing the type of card which can be used for payment like :- DC for debit card, CC for credit card and CC_DC for debit and credit both                                                                                                |
+| **_authToken_**          | string  | yes                        | Basic authentication token generated using the merchant ID and the merchant-access-code                                                     |
 ###### Usage:
 
 ```sh
