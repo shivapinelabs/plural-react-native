@@ -99,7 +99,12 @@ public class PluralCheckoutPackageModule extends ReactContextBaseJavaModule {
             @Override
             public void onCancelTxn(int code, String message) {
                 WritableNativeMap object = new WritableNativeMap();
-                object.putInt("statusCode",code);
+                try {
+                  JSONObject json = new JSONObject();
+                  object.putString("statusCode", jsonObject.getJSONObject("data").getString("error_code"));
+                } catch (JSONException e) {
+                  e.printStackTrace();
+                }
                 object.putString("message", message);
                 callback.invoke(object);
             }
