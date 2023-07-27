@@ -97,7 +97,7 @@ public class PluralCheckoutPackageModule extends ReactContextBaseJavaModule {
             }
 
             @Override
-            public void onCancelTxn(int code, String message) {
+            public void onCancelTxn(JSONObject jsonObject, String message) {
                 WritableNativeMap object = new WritableNativeMap();
                 try {
                   JSONObject json = new JSONObject();
