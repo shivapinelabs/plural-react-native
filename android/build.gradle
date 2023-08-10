@@ -54,6 +54,7 @@ android {
 repositories {
   mavenCentral()
   google()
+  maven { url 'https://jitpack.io' }
 
   def found = false
   def defaultDir = null
@@ -125,7 +126,7 @@ repositories {
 dependencies {
   implementation 'com.google.android.material:material:1.5.0'
 
-  implementation files('libs/Plural_SDK.aar')
+  implementation 'com.github.shivapinelabs:plural-android-sdk:1.1'
 
   implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
   //noinspection GradleDynamicVersion
