@@ -1,6 +1,6 @@
 {
   "name": "plural-react-native",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Plural checkout SDK",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
